@@ -16,4 +16,6 @@ console.log(Math.abs(-5));
 console.log(Math.round(4.67));
 console.log(Math.floor(4.1));
 console.log(Math.min(4,6,2,8,9));
+console.log(Math.abs(-10));
+console.log(Math.abs(-9));
 
