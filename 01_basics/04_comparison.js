@@ -12,4 +12,14 @@ console.log(null >0); // gives false
 console.log(null <0);//gives false
 console.log(null == 0);// gives false
 console.log(null >=0);// ( >=,>,<, <=  cnvert null to 0 and then compare)   gives true
+//( all below gives false with undefined)
+
+// console.log(undefined >0);
+// console.log(undefined >=0);
+// console.log(undefined ==0);
+// console.log(undefined <0);
+
+// === (strict check)
+
+console.log("2"===2);// strict check, check both value and data type
 
