@@ -7,3 +7,4 @@ console.log(accountEmail);
 let accountState;
 console.table([accontId,accountEmail,accountPass,accountCity,accountState]);
 /* do not use var due to scope*/
+// ctrl+/ (for commenting after selection)
