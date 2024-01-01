@@ -8,6 +8,7 @@ console.log(myheros[1]);
 const arr2= new Array(7,8,9)
 //arr2 =[7,8,9,12,15];
 console.log(arr2[2]);
+console.log(arr2);
 
 //array methods
 
