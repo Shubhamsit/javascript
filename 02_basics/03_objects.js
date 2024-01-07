@@ -21,6 +21,7 @@ console.log(jsuser.name);
 console.log(jsuser["fullname"]);
 console.log([mysym]);
 console.log(jsuser[mysym]);
+console.log(jsuser['age'])
 
 jsuser.email="iamshubham@gmail.com"
 //Object.freeze(jsuser)// freeze jsuser you cant now modify in object after this line
