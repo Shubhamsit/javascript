@@ -48,8 +48,12 @@ console.log(typeof y);
 console.log("1"+2);// gives 12 (IF STRING is in first then it will convert it into string)
 console.log("1"+2+2);//gives 122
 console.log(1+2+"2");// gives 32 ( if number and some operation in between them then first operation b/w no and then into string)
-console.log(true);// gives true
-console.log(+true);// gives 1
+
+console.log(+"42");  // 42 (string to number)
+console.log(+"3.14"); // 3.14 (string to number)
+console.log(+"true"); // 1 (boolean to number)
+console.log(+"false"); // 0 (boolean to number)
+console.log(+null); // 0 (null to number)
 console.log(+"");// // gives 0
 
 let num1, num2, num3
