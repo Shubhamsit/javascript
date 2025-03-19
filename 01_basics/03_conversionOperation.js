@@ -17,7 +17,7 @@ let inBoolean=Boolean(x);
 console.log(inBoolean);
 console.log(typeof inBoolean );
 
-// 1 => true; 0-> false 
+// 1 => true; 0-> false, -1=> true
 // "" => false
 //"anything unde double qotes" => true
 //---------------------------------------
